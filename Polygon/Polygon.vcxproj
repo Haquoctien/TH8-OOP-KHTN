@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E5AAF409-999A-43B3-8E8C-E515C8C6B63C}</ProjectGuid>
-    <RootNamespace>TH8OOPKHTN</RootNamespace>
+    <ProjectGuid>{63F9EC8B-2872-4E7C-889E-C72488EC0DAB}</ProjectGuid>
+    <RootNamespace>Polygon</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>Books</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -116,17 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Book.h" />
-    <ClInclude Include="Mag.h" />
-    <ClInclude Include="Novel.h" />
-    <ClInclude Include="Textbook.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Quadrangle.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Book.cpp" />
-    <ClCompile Include="Mag.cpp" />
-    <ClCompile Include="Novel.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Textbook.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Quadrangle.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
